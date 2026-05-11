@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/primary"
+            app:titleTextColor="@color/text_on_primary"/>
+
+        <!-- Tabs with background selector — selected tab is slightly darker -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/primary"
+            app:tabBackground="@drawable/tab_background"
+            app:tabTextColor="@color/text_on_primary"
+            app:tabSelectedTextColor="@color/text_on_primary"
+            app:tabIndicatorColor="@color/text_on_primary"
+            app:tabIndicatorHeight="3dp"
+            app:tabTextAppearance="@style/Widget.MyLearning.TabText"
+            app:tabRippleColor="@android:color/transparent"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

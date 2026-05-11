@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MyLearning" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+        <!-- Default text input style throughout the app -->
+        <item name="textInputStyle">@style/Widget.MyLearning.TextInputLayout</item>
+    </style>
+
+    <!-- Base style to allow dotted inheritance -->
+    <style name="Widget.MyLearning" parent="" />
+
+    <!-- Outlined input fields used on all forms -->
+    <style name="Widget.MyLearning.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Primary full-width button -->
+    <style name="Widget.MyLearning.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Disabled state for buttons -->
+    <style name="Widget.MyLearning.Button.Disabled">
+        <item name="backgroundTint">@color/text_hint</item>
+    </style>
+
+    <!-- Card style used across screens -->
+    <style name="Widget.MyLearning.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Selected chip -->
+    <style name="Widget.MyLearning.Chip.Selected" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_selected</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <!-- Unselected chip -->
+    <style name="Widget.MyLearning.Chip.Unselected" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_unselected</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Widget.MyLearning.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Widget.MyLearning.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+</resources>

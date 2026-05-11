@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- DB contains password hashes — must not reach Google cloud -->
+    <exclude domain="database" path="mylearning.db" />
+    <!-- Session prefs contain userId + tier — restoring to another device grants access -->
+    <exclude domain="sharedpref" path="mylearning_session.xml" />
+</full-backup-content>

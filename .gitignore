@@ -1,0 +1,33 @@
+# API key and local SDK config — never commit
+local.properties
+
+# Gradle build outputs and caches
+.gradle/
+/build/
+app/build/
+
+# Android Studio IDE files
+.claude/
+*.iml
+/.idea/
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/studiobot.xml
+
+# macOS junk
+.DS_Store
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# Captures (profiler/logcat saves)
+/captures/
+
+# Build reports
+/build/reports/

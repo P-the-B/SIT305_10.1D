@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyLearning</string>
+    <string name="app_tagline">Learn smarter, every day</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="link_forgot_password">Forgot password?</string>
+    <string name="link_signup">Don\'t have an account? Sign up</string>
+
+    <!-- Signup -->
+    <string name="signup_title">Let\'s get you set up</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_confirm_email">Confirm Email</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_security_question">Security Question</string>
+    <string name="hint_security_answer">Security Answer</string>
+    <string name="hint_confirm_security_answer">Confirm Security Answer</string>
+    <string name="btn_create_account">Create Account</string>
+
+    <!-- Interests -->
+    <string name="interests_title">Choose Your Interests</string>
+    <string name="interests_subtitle">Select up to 10 topics</string>
+    <string name="hint_search_topics">Search topics…</string>
+    <string name="btn_continue">Continue</string>
+    <string name="label_your_picks">Your Picks</string>
+
+    <!-- Home -->
+    <string name="home_title">Your Learning</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_progress">Progress</string>
+    <string name="btn_edit_interests">Edit interests</string>
+    <string name="btn_start_quiz">Start Quiz</string>
+    <string name="btn_short_lesson">Short Lesson (2 min)</string>
+
+    <!-- Quiz -->
+    <string name="btn_next">Next</string>
+    <string name="btn_finish">Finish Quiz</string>
+    <string name="btn_quit">Quit</string>
+    <string name="quit_dialog_title">Quit Quiz?</string>
+    <string name="quit_dialog_message">Your progress so far will be saved.</string>
+    <string name="btn_quit_confirm">Quit</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Results -->
+    <string name="results_title">Your Results</string>
+    <string name="btn_explain">Explain</string>
+    <string name="label_correct">Correct</string>
+    <string name="label_incorrect">Incorrect</string>
+    <string name="label_ai_explanation">AI Explanation</string>
+    <string name="error_explanation_failed">Could not load explanation. Tap to retry.</string>
+
+    <!-- Lesson -->
+    <string name="lesson_title">Short Topic Lesson</string>
+    <string name="lesson_loading">Generating your lesson…</string>
+    <string name="lesson_error">Could not load lesson. Tap to retry.</string>
+    <string name="btn_start_quiz_lesson">Start Quiz</string>
+
+    <!-- Progress -->
+    <string name="progress_title">Progress</string>
+    <string name="label_accuracy">Accuracy</string>
+    <string name="label_attempts">Attempts</string>
+    <string name="label_focus_here">Focus here</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+</resources>

@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyLearning" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="textInputStyle">@style/Widget.MyLearning.TextInputLayout</item>
+
+        <!-- Status bar matches the toolbar so there's no dark strip -->
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="Theme.MyLearning" parent="Base.Theme.MyLearning" />
+
+    <!-- Base style to allow dotted inheritance -->
+    <style name="Widget.MyLearning" parent="" />
+
+    <style name="Widget.MyLearning.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="Widget.MyLearning.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Outlined input fields -->
+    <style name="Widget.MyLearning.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Primary button style -->
+    <style name="Widget.MyLearning.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.MyLearning.Button.Disabled">
+        <item name="backgroundTint">@color/text_hint</item>
+    </style>
+
+    <style name="Widget.MyLearning.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="Widget.MyLearning.Chip.Selected" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_selected</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="Widget.MyLearning.Chip.Unselected" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_unselected</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Widget.MyLearning.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="navigationIconTint">@color/text_on_primary</item>
+        <item name="titleTextColor">@color/text_on_primary</item>
+    </style>
+
+    <!-- Tab text — larger than default for readability -->
+    <style name="Widget.MyLearning.TabText" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.MyLearning.Splash" parent="Theme.MyLearning">
+        <item name="android:windowSplashScreenBackground">#1a0a02</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
+</resources>

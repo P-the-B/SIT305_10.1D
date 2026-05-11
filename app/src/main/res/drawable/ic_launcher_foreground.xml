@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Book spine -->
+    <path
+        android:fillColor="#2a1306"
+        android:pathData="M22,18 L32,18 L32,90 L22,90 C20.9,90 20,89.1 20,88 L20,20 C20,18.9 20.9,18 22,18 Z"/>
+
+    <!-- Front cover -->
+    <path
+        android:fillColor="#3d1f0a"
+        android:pathData="M30,16 L82,16 C83.1,16 84,16.9 84,18 L84,90 C84,91.1 83.1,92 82,92 L30,92 Z"/>
+
+    <!-- Cover border frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#c8a850"
+        android:strokeWidth="1.2"
+        android:pathData="M34,20 L80,20 L80,88 L34,88 Z"/>
+
+    <!-- Glow circle background -->
+    <path
+        android:fillColor="#1a0800"
+        android:pathData="M57,54 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0"/>
+
+    <!-- Mystical eye -->
+    <path
+        android:fillColor="#6b2fa0"
+        android:pathData="M40,54 Q57,44 74,54 Q57,64 40,54 Z"/>
+
+    <!-- Eye pupil -->
+    <path
+        android:fillColor="#1a0800"
+        android:pathData="M57,54 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Eye glow -->
+    <path
+        android:fillColor="#c8a850"
+        android:pathData="M57,54 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"/>
+
+    <!-- Eye lid lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#c8a850"
+        android:strokeWidth="1"
+        android:pathData="M40,54 Q57,44 74,54"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#c8a850"
+        android:strokeWidth="1"
+        android:pathData="M40,54 Q57,64 74,54"/>
+
+    <!-- Top rune -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#c8a850"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,30 L54,38 M50,34 L58,34"/>
+
+    <!-- Bottom rune -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#c8a850"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,70 L54,78 M50,74 L58,74 M51,70 L57,70"/>
+
+    <!-- Corner ornaments -->
+    <path android:fillColor="#00000000" android:strokeColor="#c8a850" android:strokeWidth="1" android:pathData="M34,20 L40,20 M34,20 L34,26"/>
+    <path android:fillColor="#00000000" android:strokeColor="#c8a850" android:strokeWidth="1" android:pathData="M80,20 L74,20 M80,20 L80,26"/>
+    <path android:fillColor="#00000000" android:strokeColor="#c8a850" android:strokeWidth="1" android:pathData="M34,88 L40,88 M34,88 L34,82"/>
+    <path android:fillColor="#00000000" android:strokeColor="#c8a850" android:strokeWidth="1" android:pathData="M80,88 L74,88 M80,88 L80,82"/>
+
+    <!-- Star top centre -->
+    <path
+        android:fillColor="#e8d080"
+        android:pathData="M57,10 L58.5,14.5 L63,14.5 L59.5,17 L61,21.5 L57,19 L53,21.5 L54.5,17 L51,14.5 L55.5,14.5 Z"/>
+</vector>
