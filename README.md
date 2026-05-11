@@ -40,7 +40,7 @@ MyLearning generates AI-powered quizzes, explanations, and lesson summaries usin
 ## Screenshots
 
 | | | |
-|---|---|---|
+|:---:|:---:|:---:|
 | <img src="screenshots/login.png" width="250" height="600"> | <img src="screenshots/signup.png" width="250" height="600"> | <img src="screenshots/forgot_password.png" width="250" height="600"> |
 | **Login** | **Sign Up** | **Forgot Password** |
 | <img src="screenshots/interests.png" width="250" height="600"> | <img src="screenshots/home.png" width="250" height="600"> | <img src="screenshots/progress.png" width="250" height="600"> |
@@ -92,10 +92,6 @@ The app follows a standard Android package structure under `com.example.mylearni
    GEMINI_API_KEY=your_key_here
    ```
 4. Sync Gradle and run on an emulator or device (API 26+)
-
-## AI Declaration
-
-This project was developed with the assistance of Claude (Anthropic) as a code generation and architectural planning tool. All AI-generated code was reviewed, tested, and modified by the student.
 
 ## Legal
 
