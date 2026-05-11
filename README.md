@@ -1,6 +1,6 @@
 # MyLearning
 
-An LLM-enhanced learning assistant Android app built for SIT305 Mobile Application Development (Task 10.1) at Deakin University.
+An LLM-enhanced learning assistant Android app built for SIT305 Mobile Application Development (Task 10.1D) at Deakin University.
 
 MyLearning generates AI-powered quizzes, explanations, and lesson summaries using the Gemini API, with a tiered monetisation system, quiz history tracking, video suggestions, and a shareable user profile.
 
@@ -39,40 +39,20 @@ MyLearning generates AI-powered quizzes, explanations, and lesson summaries usin
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center"><b>Login</b><br><img src="screenshots/login.png" width="250" height="600"/></td>
-    <td align="center"><b>Sign Up</b><br><img src="screenshots/signup.png" width="250" height="600"/></td>
-    <td align="center"><b>Forgot Password</b><br><img src="screenshots/forgot_password.png" width="250" height="600"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Choose Interests</b><br><img src="screenshots/interests.png" width="250" height="600"/></td>
-    <td align="center"><b>Home</b><br><img src="screenshots/home.png" width="250" height="600"/></td>
-    <td align="center"><b>Progress</b><br><img src="screenshots/progress.png" width="250" height="600"/>
-  </tr>
-  <tr>
-    <td align="center"><b>Lesson</b><br><img src="screenshots/lesson.png" width="250" height="600"/></td>
-    <td align="center"><b>Quiz</b><br><img src="screenshots/quiz.png" width="250" height="600"/></td>
-    <td align="center"><b>Results</b><br><img src="screenshots/results.png" width="250" height="600"/></td>
-  </tr>
-  <tr>
-    </td>
-    <td align="center"><b>Targeted Lesson</b><br><img src="screenshots/lesson_targeted.png" width="250" height="600"/></td>
-    <td align="center"><b>(New) Topic Detail</b><br><img src="screenshots/topic_detail.png" width="250" height="600"/></td>
-    <td align="center"><b>(New) Topic Detail (Expanded)</b><br><img src="screenshots/topic_detail_expanded.png" width="250" height="600"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>(New) Profile</b><br><img src="screenshots/profile.png" width="250" height="600"/></td>
-    <td align="center"><b>Customised AI Learning Insight</b><br><img src="screenshots/profile_ai_insight.png" width="250" height="600"/></td>
-    <td align="center"><b>(New) Upgrade</b><br><img src="screenshots/upgrade.png" width="250" height="600"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>(New) Share Profile</b><br><img src="screenshots/share_profile.png" width="250" height="600"/></td>
-    <td align="center"><b>(New) Specific Question Video Suggestions</b><br><img src="screenshots/video_suggestion.png" width="250" height="600"/></td>
-    <td align="center"><b>Splash Screen</b><br><img src="screenshots/splash.png" width="250" height="600"/></td>
-    <td></td>
-  </tr>
-</table>
+| | | |
+|---|---|---|
+| <img src="screenshots/login.png" width="250" height="600"> | <img src="screenshots/signup.png" width="250" height="600"> | <img src="screenshots/forgot_password.png" width="250" height="600"> |
+| **Login** | **Sign Up** | **Forgot Password** |
+| <img src="screenshots/interests.png" width="250" height="600"> | <img src="screenshots/home.png" width="250" height="600"> | <img src="screenshots/progress.png" width="250" height="600"> |
+| **Choose Interests** | **Home** | **Progress** |
+| <img src="screenshots/lesson.png" width="250" height="600"> | <img src="screenshots/quiz.png" width="250" height="600"> | <img src="screenshots/results.png" width="250" height="600"> |
+| **Lesson** | **Quiz** | **Results** |
+| <img src="screenshots/lesson_targeted.png" width="250" height="600"> | <img src="screenshots/topic_detail.png" width="250" height="600"> | <img src="screenshots/topic_detail_expanded.png" width="250" height="600"> |
+| **Targeted Lesson** | **(New) Topic Detail** | **(New) Topic Detail (Expanded)** |
+| <img src="screenshots/profile.png" width="250" height="600"> | <img src="screenshots/profile_ai_insight.png" width="250" height="600"> | <img src="screenshots/upgrade.png" width="250" height="600"> |
+| **(New) Profile** | **Customised AI Learning Insight** | **(New) Upgrade** |
+| <img src="screenshots/share_profile.png" width="250" height="600"> | <img src="screenshots/video_suggestion.png" width="250" height="600"> | <img src="screenshots/splash.png" width="250" height="600"> |
+| **(New) Share Profile** | **(New) Specific Question Video Suggestions** | **Splash Screen** |
 
 
 ## Tech Stack
